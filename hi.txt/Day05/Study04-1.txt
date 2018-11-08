@@ -1,0 +1,53 @@
+1.Linux中默认的解释器是哪个程序？
+     /bin/bash
+
+2.切换上一级目录的操作命令？去往用户root的家目录？
+      cd  ..
+      cd  ~root 或  cd  /root
+
+3.ls常用选项有哪些？不用写作用
+      -l   -A   -h   -d   -R  --help
+
+4.常见的通配符都有哪些？不用写作用
+        *   []   ?   {}
+
+5.cp命令在使用时，源是一个目录时需要加什么选项？
+         -r
+
+6.如何定义一个别名？如何查看所有的别名？如何删除一个别名？
+    alias  别名='实际执行的命令'
+    alias
+    unalias  别名 
+
+7.vim编辑器有几种工作模式,分别是什么？
+        3   命令模式   插入模式  末行模式 
+
+8.利用rpm命令检测firefox是否安装，请写出该命令？
+         rpm  -q  firefox
+
+9.利用yum安装httpd软件，请写出该命令？
+      yum  -y  install httpd
+
+10.显示/etc/passwd中包含root的行，请写出该命令？
+         grep  root  /etc/passwd
+
+11.yum客户端配置文件放在什么路径下？具体都有哪些字段？
+     /etc/yum.repos.d/*.repo
+     []、name、baseurl、enabled、gpgcheck
+
+12.设置永久别名配置文件，请写出该文件路径？
+       /root/.bashrc
+
+13.使用 ls 命令完成以下任务,找出/etc/目录下以re开头.conf结尾的文件
+[root@server0 ~]# ls /etc/re*.conf
+
+
+
+
+
+
+
+
+
+
+
